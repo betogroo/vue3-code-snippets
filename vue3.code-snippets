@@ -1,5 +1,5 @@
 {
-    // VUE
+    // VUE BASE
     "Vue3 Script Setup Complet": {
       "scope": "vue, html",
       "prefix": "v3-sfc-complete",
@@ -43,7 +43,7 @@
       "body": ["<div v-else>$1</ div>"]
     },
   
-    // JD / TS
+    // VUE 3 JS / TS
     "Vue 3 Define Props with Defaults": {
       "scope": "javascript,typescript",
       "prefix": "v3-sfc-props-defaults",
@@ -129,5 +129,17 @@
       "scope": "javascript,typescript",
       "prefix": "v3-onBeforeMount",
       "body": ["onBeforeMount(() => {})"]
+    },        
+    // VUETIFY TEMPLATE AND COMPONENTES
+     "Vuetify Centered Container": {
+      "scope": "vue, html",
+       "prefix": "vtf-center-layout",
+      "body": [
+        "<v-container class=\"fill-height\">",
+        "\t<v-responsive class=\"text-center\">",
+        "\t\t$1",
+        "\t</v-responsive>",
+        "</v-container>",
+      ]
     }
   }
